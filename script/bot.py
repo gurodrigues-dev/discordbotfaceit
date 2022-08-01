@@ -8,9 +8,6 @@ headers = {
     "Authorization":f"Bearer {''}"
 }
 
-# Insira o Token do seu bot no discord aqui
-token_bot = ''
-
 bot = commands.Bot("!")
 
 @bot.event
@@ -85,4 +82,5 @@ async def send_elo(ctx, nickname: str):
     
     await ctx.send(response)
     
-bot.run('MTAwMzM5NzM4NDY4NjAxODU5MQ.GQYk1Z.CL5xC7LUOrkq6TYNbOk3V2J8BJgDTMY6qrGhCY')
+# Insert your bot's token on discord here
+bot.run('')
